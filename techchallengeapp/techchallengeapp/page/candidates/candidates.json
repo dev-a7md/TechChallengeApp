@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2024-02-10 17:38:58.061236",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-02-10 17:38:58.061236",
+ "modified_by": "Administrator",
+ "module": "Techchallengeapp",
+ "name": "candidates",
+ "owner": "Administrator",
+ "page_name": "candidates",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Candidate List"
+}

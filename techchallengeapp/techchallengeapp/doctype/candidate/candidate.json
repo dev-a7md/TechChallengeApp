@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:candidate_name",
+ "creation": "2024-02-10 15:13:01.120430",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "candidate_name",
+  "email",
+  "column_break_pawom",
+  "status",
+  "section_break_hqspx",
+  "experience"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_pawom",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nShortlisted\nRejected\nHired",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hqspx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "experience",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Experience",
+   "reqd": 1
+  },
+  {
+   "fieldname": "candidate_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-10 15:14:07.860740",
+ "modified_by": "Administrator",
+ "module": "Techchallengeapp",
+ "name": "Candidate",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
