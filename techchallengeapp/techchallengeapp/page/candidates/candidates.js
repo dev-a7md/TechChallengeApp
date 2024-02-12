@@ -36,7 +36,7 @@ class Candidates {
 				let table = ``
 				for(let i in candidates_list){
 					table += `
-						<tr data-name=${candidates_list[i].name} data-email=${candidates_list[i].email} data-experience =${candidates_list[i].experience} data-status =${candidates_list[i].status}>
+						<tr data-name="${candidates_list[i].name}" data-email="${candidates_list[i].email}" data-experience ="${candidates_list[i].experience}" data-status ="${candidates_list[i].status}">
 							<th>${candidates_list[i].name}</th>
 							<th>${candidates_list[i].email}</th>
 							<th>${candidates_list[i].experience}</th>
