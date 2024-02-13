@@ -27,6 +27,9 @@ class Candidates {
 		});
 		
 		this.form.make();
+		this.initialize_list()
+	}
+	initialize_list(){
 		frappe.call({
 			method:"techchallengeapp.public.py.apis.candidate.get_candidates",
 			args:{},
@@ -83,11 +86,6 @@ class Candidates {
 				</html>
 				`
 				this.form.set_value('data',html)
-				$(document).ready(function(){
-					$('.editbtn').click(function(r){
-						console.log(r)
-					});
-				});
 			}
 		})
 	}
@@ -138,8 +136,7 @@ class Candidates {
 		d.show();
 	}
 	refresh(){
-		this.form.set_value('data','')
-		this.make_form()
+		this.initialize_list()
 	}
 }
 function update(button){
